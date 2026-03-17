@@ -136,6 +136,7 @@ nav a:hover {
 #services {
     padding: 15px 7px;
     align-items: center;
+    text-align: center;
 }
 
 .service {
@@ -153,7 +154,7 @@ nav a:hover {
 form {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 50%;
     margin: 0 auto;
 }
 
