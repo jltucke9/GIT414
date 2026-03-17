@@ -74,6 +74,7 @@ body {
     min-width: 400px;
     color: var(--charcoal);
     padding: 20px;
+    max-width: 100%;
 }
 
 h1{
@@ -117,7 +118,6 @@ nav a {
 
 nav a:hover {
     background-color: var(--dusty-violet);
-    scale: 4.25px;
 }
 
 #about {
@@ -187,8 +187,25 @@ footer {
     color: var(--charcoal);
 }
 
+/* RESPONSIVE STYLES */
+
+/* MEDIUM */
 @media (min-width: 600px) {
-    nav li {
-        
+    body {
+        max-width: 750px;
+    }
+}
+
+/* LARGE */
+@media (min-width: 900px) {
+    body {
+        max-width: 1200px;
+    }
+}
+
+/* XL */
+@media (min-width: 1200px) {
+    body {
+        max-width: 1800px;
     }
 }
